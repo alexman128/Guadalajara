@@ -1,0 +1,89 @@
+<!doctype=html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link type="text/css" rel="stylesheet" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+  <script>
+  $(function(){
+
+      $('input[name=text]').on("change",function(){
+
+          var $input = $(this);
+          $('#search').prop("href","http://www.google.com.mx/search?q="+$input.val());
+          });
+
+      });
+
+</script>
+
+</head>
+<body>
+  <div id="header_top">
+      <div class="header">
+        <a href="https://mail.google.com/mail/?tab=wm" target="_blank">
+          Gmail
+        </a>
+      </div>
+      <div class="header">
+        <a href="https://www.google.com.mx/imghp?hl=es-419&tab=wi" target="_blank" >
+          Imágenes
+        </a>
+      </div>
+      <div class="header">
+        <a href="https://www.google.com.mx/intl/es-419/options/" target="_blank">
+          <img src="google apps.png">
+        </a>
+      </div>
+      <div class="header">
+        <a href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com.mx/%3Fgfe_rd%3Dcr%26dcr%3D0%26ei%3DXybDWd-YCKz58Aevzr6wDQ" target="_blank">
+          <img id="perfil" src="paris.jpg" witdh="20px">
+        </a>
+      </div>
+
+
+
+  </div>
+  <div id="middle">
+    <div id="google">
+      <img src="google logo.png">
+
+    </div>
+
+    <form id="forma">
+      <div>
+        <input id="text" name="text">
+      </div>
+      <div>
+        <a class="search_button" id="search" href="http://example.com/{value of foo}">Buscar con Google</a>
+        <a class="search_button" href="http://example.com/{value of foo}">I'm feeling lucky</a>
+      </div>
+
+    </form>
+  </div>
+    <div id="foot">
+
+
+      <div id=sub_foot>
+
+
+        <div class="left_footer">
+          <a href="https://www.google.com.mx/intl/en/ads/?fg=1" target="_blank">Advertising</a>
+          <a href="https://www.google.com.mx/services/?fg=1">Business</a>
+          <a href="https://www.google.com.mx/intl/en/about.html?fg=1">About</a>
+
+        </div>
+        <div class="right_footer">
+          <a href="https://www.google.com.mx/intl/en/policies/privacy/?fg=1">Privacy</a>
+          <a href="https://www.google.com.mx/intl/en/policies/terms/?fg=1">Terms</a>
+          <a href="https://www.google.com.mx/preferences?hl=en">Settings</a>
+          <a href="https://www.google.com/?gfe_rd=cr&dcr=0&ei=XybDWd-YCKz58Aevzr6wDQ&gws_rd=cr&fg=1">Use Google.com</a>
+
+        </div>
+      </div>
+    </div>
+
+
+</body>
+</html>
