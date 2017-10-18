@@ -1,0 +1,132 @@
+notas
+
+miercoles
+
+etiquetas nativas
+id
+classes
+
+
+fontawesome
+
+SEMANA 3
+lunes
+
+FLEX
+
+Propiedad display
+
+display none <-- Ocultar
+block
+
+
+flexfroggy
+
+
+para iniciar display: flex
+
+Propiedad justify-content
+
+flex-start
+flex-end
+center
+space-around
+space-between
+
+
+propiedad align-items
+
+flex-start
+flex-end
+center
+baseline
+stretch
+
+
+propiedad flex-direction
+
+row: Items are placed the same as the text direction.
+row-reverse: Items are placed opposite to the text direction.
+column: Items are placed top to bottom.
+column-reverse: Items are placed bottom to top.
+
+
+Propiedad flex-wrap property, which accepts the following values:
+
+nowrap: Every item is fit to a single line.
+wrap: Items wrap around to additional lines.
+wrap-reverse: Items wrap around to additional lines in reverse.
+
+The two properties flex-direction and flex-wrap are used so often together that the shorthand property flex-flow was created to combine them. This shorthand property accepts the value of one of the two properties separated by a space.
+
+For example, you can use flex-flow: row wrap to set rows and wrap them.
+
+
+flex-flow: column-reverse wrap-reverse;
+justify-content: center;
+align-content: space-between;
+
+
+INVESTIGAR
+
+date
+check
+radio
+
+
+
+CLASE JUEVES DE SEGUNDA SEMANA
+
+p::after {
+
+
+}
+
+p::before{}
+
+ul lista desordenada
+
+ol  lista ordenada
+
+<ol>
+  <li>
+
+
+MEDIA QUERY
+
+@media only screen and ( max-width: 500 px)
+{
+
+}
+
+
+BOOTSTRAP
+
+
+!important
+
+
+en class va
+
+lo que quieres  espacio  y como lo quieres
+
+
+
+GRID
+
+
+columnas
+
+
+12 columnas en bootstrap
+
+container-fluid para que no le ponga margenes a la izq o derecha
+
+
+
+LUNES TERCERA SEMANA
+
+programas de diseño
+
+sketch,
+zepin
